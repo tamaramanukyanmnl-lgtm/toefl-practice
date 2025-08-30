@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #00796b;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+h1, h2, h3 {
+  color: #333;
+}
+.passage {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.questions {
+  margin-top: 15px;
+}
+.question {
+  margin-bottom: 10px;
+}
+.answers {
+  margin-top: 15px;
+  background-color: #e0f7fa;
+  padding: 15px;
+  border-radius: 8px;
+}
+.toggle-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #00796b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOEFL Practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>TOEFL Reading Practice</h1>
+  <p>Practice passages with questions and answers</p>
+</header>
+
+<!-- Passage 1 -->
+<div class="passage">
+  <h2>Passage 1: The History and Importance of Public Libraries</h2>
+  <p>Public libraries have played an important role in communities for centuries. A public library is a place where anyone can borrow books, use computers, or attend educational programs, usually free of charge. The first public libraries appeared in Europe in the 17th century, but the concept became more widespread in the 19th and 20th centuries.</p>
+  <p>One of the main benefits of public libraries is access to knowledge. They allow people of all ages and backgrounds to read books, study, and learn new skills. This access is especially important for people who cannot afford to buy books or pay for education. Libraries also support literacy by offering reading programs for children and adults, helping people improve their reading and comprehension skills.</p>
+  <p>Public libraries also serve as community centers. They host events such as workshops, lectures, and cultural activities. Many libraries provide free access to technology, including computers, the internet, and digital learning platforms. This service helps bridge the digital divide, giving everyone the opportunity to gain information and develop new skills.</p>
+  <p>However, public libraries face challenges. Funding is often limited, which can restrict the number of books and programs available. Libraries also need to adapt to new technologies and changing public interests. Despite these challenges, public libraries remain essential institutions that promote learning, equality, and community engagement.</p>
+
+  <div class="questions">
+    <h3>Questions</h3>
+    <div class="question">1. What is the main idea of the passage?<br>
+      A) Libraries are only important for children.<br>
+      B) Public libraries provide access to knowledge and serve as community centers.<br>
+      C) Libraries are no longer useful in the modern world.<br>
+      D) Libraries are expensive places to visit.
+    </div>
+    <div class="question">2. According to the passage, what is a benefit of public libraries?<br>
+      A) They provide access to books and technology for free.<br>
+      B) They replace schools and universities.<br>
+      C) They are only for wealthy people.<br>
+      D) They allow people to buy expensive books.
+    </div>
+    <div class="question">3. How do libraries support literacy?<br>
+      A) By offering reading programs for all ages<br>
+      B) By selling books at a discount<br>
+      C) By teaching only adults to read<br>
+      D) By closing during the summer
+    </div>
+    <div class="question">4. What is one challenge faced by public libraries?<br>
+      A) Too many visitors<br>
+      B) Limited funding and adapting to technology<br>
+      C) Lack of interest in reading only among children<br>
+      D) Books growing too fast
+    </div>
+    <div class="question">5. The word “bridge” in the phrase “bridge the digital divide” most nearly means:<br>
+      A) To connect or reduce the gap<br>
+      B) A physical structure<br>
+      C) A type of program<br>
+      D) A payment system
+    </div>
+    <button class="toggle-button" onclick="toggleAnswers('answers1')">Show / Hide Answers</button>
+    <div class="answers" id="answers1" style="display:none;">
+      <p>Answer Key:</p>
+      <p>1. B</p>
+      <p>2. A</p>
+      <p>3. A</p>
+      <p>4. B</p>
+      <p>5. A</p>
+    </div>
+  </div>
+</div>
+
+<!-- Passage 2 -->
+<div class="passage">
+  <h2>Passage 2: Urban Gardening</h2>
+  <p>In many cities around the world, urban gardening has become increasingly popular. Urban gardening refers to growing fruits, vegetables, and flowers in city areas, such as backyards, rooftops, balconies, and community plots. People are drawn to this activity for several reasons.</p>
+  <p>First, urban gardening helps provide fresh and healthy food. Many city residents do not have easy access to fresh produce. By growing their own fruits and vegetables, they can improve their diets and reduce their spending on groceries. Gardening also encourages people to eat more fruits and vegetables, which can lead to better overall health.</p>
+  <p>Second, urban gardening can improve the environment. Plants help clean the air by absorbing carbon dioxide and releasing oxygen. Gardens can also reduce city pollution and decrease the heat in urban areas, making the surroundings more pleasant. Additionally, community gardens provide green spaces where neighbors can gather and interact.</p>
+  <p>Despite these advantages, urban gardening comes with challenges. Space in cities is limited, and not everyone has access to a garden or rooftop. Gardening also requires time, effort, and knowledge. People must learn how to care for plants properly and protect them from pests and diseases. Finally, urban soil may sometimes be polluted, making it unsafe for growing edible plants without proper preparation.</p>
+
+  <div class="questions">
+    <h3>Questions</h3>
+    <div class="question">1. What is the main idea of the passage?<br>
+      A) Urban gardening is easy and requires no effort.<br>
+      B) Urban gardening has benefits for health and the environment but also presents challenges.<br>
+      C) Only community gardens are important in cities.<br>
+      D) Gardening is impossible in cities due to lack of space.
+    </div>
+    <div class="question">2. Which of the following is a benefit of urban gardening?<br>
+      A) It always grows perfectly without effort.<br>
+      B) It reduces pollution and provides fresh food.<br>
+      C) It eliminates the need to exercise.<br>
+      D) It makes soil unnecessary.
+    </div>
+    <div class="question">3. Why might urban gardening be difficult for some people?<br>
+      A) It requires expensive machinery only.<br>
+      B) Some people do not like plants.<br>
+      C) Cities may have limited space, polluted soil, and gardening requires knowledge and effort.<br>
+      D) All plants die in the city.
+    </div>
+    <button class="toggle-button" onclick="toggleAnswers('answers2')">Show / Hide Answers</button>
+    <div class="answers" id="answers2" style="display:none;">
+      <p>Answer Key:</p>
+      <p>1. B</p>
+      <p>2. B</p>
+      <p>3. C</p>
+    </div>
+  </div>
+</div>
+
+<!-- Passages 3,4,5 can be added in the same structure -->
+
+<script>
+  function toggleAnswers(id) {
+    const answers = document.getElementById(id);
+    answers.style.display = answers.style.display === 'none' ? 'block' : 'none';
+  }
+</script>
+
+</body>
+</html>
